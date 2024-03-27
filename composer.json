@@ -1,0 +1,22 @@
+{
+    "name": "iboxs/iboxs-worker",
+    "description": "workerman extend for iboxsphp5",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "liu21st",
+            "email": "liu21st@gmail.com"
+        }
+    ],
+    "require": {
+        "workerman/workerman":"^3.3.0",
+        "iboxs/framework":"1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "iboxs\\worker\\": "src"
+        },
+        "files": [
+        ]
+    }
+}
