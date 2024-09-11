@@ -9,8 +9,8 @@
         }
     ],
     "require": {
-        "workerman/workerman":"^3.3.0",
-        "iboxs/framework":"^1.0.*"
+        "workerman/workerman":"*",
+        "iboxs/framework":"*"
     },
     "autoload": {
         "psr-4": {
